@@ -1,0 +1,20 @@
+<div >
+<p-table class="table " [value]="experts" [rowHover]="true" [scrollable]="true" scrollHeight="550px"  styleClass="p-datatable-customers p-datatable-sm" >
+      <ng-template pTemplate="header">
+          <tr class="header">
+               <th>Name</th>
+               <th>Hit</th>
+               <th>Qual</th> 
+               <th>Influ</th>          
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-expert>
+          <tr   (click)="getDetails(expert.id)"*ngFor="let expert of experts; let i = index"  (click)="ClickedRow(i)" [class.active]="i == HighlightRow" class="expertdata">
+              <td style="flex-wrap: wrap; overflow-x: hidden;">{{expert.name}}</td>
+              <td>{{expert.hitScore}}</td>
+              <td>{{expert.qualscore}}</td> 
+              <td>{{expert.influenceScore}}</td>          
+          </tr>
+      </ng-template>
+    </p-table>
+</div>

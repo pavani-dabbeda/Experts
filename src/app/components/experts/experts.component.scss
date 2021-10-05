@@ -1,0 +1,34 @@
+.body{
+  margin: 0;
+  background-color: white;
+}
+.layout-wrapper {
+  flex-direction: column;
+ 
+  background-color: white;
+  width: 100%;
+ 
+  padding: 10px;
+  
+}
+.p-component, .p-component * {
+  box-sizing: border-box;
+  background-color: white;
+}
+.p-tabview .p-tabview-nav {
+  background: white;
+}
+.card
+{
+  padding: 10px 10px;
+}
+
+// .table{
+//     width: 100%;
+// }
+// .side{
+//     display:flex;
+//     width:25%;
+//     top:0;
+//     left: 0s;
+// }

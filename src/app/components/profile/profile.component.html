@@ -1,0 +1,89 @@
+
+    <div class="p-grid">
+    <div class="p-col-12 p-md-12 p-xl-12">
+        <div class="sellers" [ngModel]="expert">
+            <ul>
+                <li>
+                    <div class="seller">
+                        <p>Salutation:</p>
+                    </div>
+                    <span>
+                        
+                    </span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Name:</p>
+                    </div>
+                    <span>{{expert.name}}</span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Qualification:</p>
+                    </div>
+                    <span>{{expert.qualifications}}</span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Speciality:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Country:</p>
+                    </div>
+                    <span>{{expert.country.name}}</span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Publications:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Clinical Trials:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Sessions:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Chairings:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Guildlines:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Online:</p>
+                    </div>
+                    <span></span>
+                </li>
+                <li>
+                    <div class="seller">
+                        <p>Followers:</p>
+                    </div>
+                    <span>
+                    </span>
+                </li>
+              
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div style="display: flex;">
+        <button pButton pRipple type="button" label="Download Complete bio as pdf" class="p-button-outlined p-mr-2 p-mb-2"></button>
+        <p-button  label="Add to the list of profiling" class="p-mr-2 p-mb-2"></p-button>
+    </div>

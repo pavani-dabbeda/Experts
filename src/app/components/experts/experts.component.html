@@ -1,0 +1,37 @@
+<!-- 
+<div class="layout-wrapper">
+   <div>
+         <i class="pi pi-arrow-left" style="font-size: 1rem"></i>
+         <label style="padding-left: 2px;"> Back</label>
+   </div>
+   <br>
+    <div class="menu-wrapper">
+       <app-sidebar></app-sidebar>
+    </div>
+    <div class="layout-main">
+       <app-mainbody></app-mainbody>
+    </div>
+</div> -->
+<div class="layout-wrapper">
+   <div class="p-m-3">
+      <i class="pi pi-arrow-left" style="font-size: 1rem"></i>
+      <label style="padding-left: 2px;"> Back</label>
+   </div>
+   <div class="p-grid">
+      <div class="p-col-12 p-md-6 p-xl-3">
+         <div class="card tasks">
+            <div class="card-header p-ml-2">
+               <h5 class="">Expert List</h5>
+            </div>
+             <app-sidebar></app-sidebar>
+         </div>
+     </div>
+
+
+     <div class="p-col-12 p-xl-9">
+         <div class="card sales">
+            <app-mainbody></app-mainbody>
+         </div>
+     </div>
+   </div>
+</div>
